@@ -5,10 +5,10 @@ const Users = ({ loading, users }) => {
     display: "flex"
   };
   return loading ? (
-    <div id="main" align="center">
+    <div id="main" align="Middle">
       <img
-        src="https://i.gifer.com/ZZ5H.gif"
-        alt="Loaading.."
+        src="http://media.giphy.com/media/s4KqhlPU9Ypnq/giphy.gif"
+        alt="Loading.."
         className="loader"
       />
     </div>
