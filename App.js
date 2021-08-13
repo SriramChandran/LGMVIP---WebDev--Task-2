@@ -1,3 +1,4 @@
+
 import Users from "./components/cards";
 import "./App.css";
 import React, { Component } from "react";
@@ -6,7 +7,6 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    // Set initial state
     this.state = { users_data: [], loading: false };
 
     this.updateState = this.updateState.bind(this);
@@ -31,7 +31,7 @@ class App extends Component {
       <>
         <nav className="navbar">
           <div className="navitems">
-            <h2>LetsGrowMore</h2>
+            <h2>WELCOME TO GET THE USER</h2>
             <button className="fetchbtn" onClick={this.updateState}>
               Get Users
             </button>
@@ -40,9 +40,7 @@ class App extends Component {
         <div className="userdatacontainer">
           <Users loading={this.state.loading} users={this.state.users_data} />
         </div>
-        <footer className="footer">
-          Let's Grow More Task2 Done by Sriram C
-        </footer>
+        <footer className="footer">Click on the Button to get the user</footer>
       </>
     );
   }
