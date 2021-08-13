@@ -39,7 +39,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-  /* padding-top: 10vh; */
+ 
 }
 .name:hover {
   color: rgb(216, 39, 39);
