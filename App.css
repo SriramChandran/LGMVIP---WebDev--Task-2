@@ -3,7 +3,7 @@ nav {
   width: 100%;
   background-image: linear-gradient(to right, #043133, #2c6eac);
   color: rgba(0, 0, 0, 0.137);
-  /* margin-bottom: 20px; */
+ 
 }
 .navitems {
   display: flex;
