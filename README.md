@@ -1,4 +1,4 @@
-# LGMVIP-WebDev-Task 2
+
 nav {
   height: 20vh;
   width: 100%;
