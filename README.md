@@ -1,4 +1,4 @@
-app.css
+app.css->
 nav {
   height: 20vh;
   width: 100%;
@@ -73,7 +73,7 @@ nav {
 }
 
 
-app.js
+app.js->
 import Users from "./components/cards";
 import "./App.css";
 import React, { Component } from "react";
@@ -124,7 +124,7 @@ class App extends Component {
 export default App;
 
 
-cards.js
+cards.js->
 import React from "react";
 
 const Users = ({ loading, users }) => {
@@ -158,7 +158,7 @@ const Users = ({ loading, users }) => {
 };
 
 
-index.css
+index.css->
 body {
   margin: 0;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -168,7 +168,7 @@ body {
 }
 
 
-index.js
+index.js->
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -184,7 +184,7 @@ ReactDOM.render(
 
 reportWebVitals();
 
-reportWebVitals.js
+reportWebVitals.js->
 const reportWebVitals = (onPerfEntry) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import("web-vitals").then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
@@ -199,9 +199,9 @@ const reportWebVitals = (onPerfEntry) => {
 
 export default reportWebVitals;
 
-setup.js
+setup.js->
 import "@testing-library/jest-dom";
 
 
-Output link
+Output link->
 https://jrer4.csb.app/
